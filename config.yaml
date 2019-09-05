@@ -1,6 +1,6 @@
 # This theme is derived from hugo-fresh
 # https://themes.gohugo.io/hugo-fresh/
-baseURL: https://facileverse.github.io/
+baseURL: https://facileverse.netlify.com/
 languageCode: en-us
 title: "facileverse: interactive tools for genomics analysis"
 theme: facileverse
