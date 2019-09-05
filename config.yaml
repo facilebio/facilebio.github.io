@@ -2,9 +2,10 @@
 # https://themes.gohugo.io/hugo-fresh/
 baseURL: https://facileverse.github.io/
 languageCode: en-us
-title: Enter the facileverse
+title: "facileverse: interactive tools for genomics analysis"
 theme: facileverse
-publishDir: "../facileverse.github.io"
+# publishDir: "../facileverse.github.io"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 params:
   navbarlogo:
   # Vector Illustration by <a rel="nofollow" href="https://vecteezy.com">www.vecteezy.com</a>
@@ -81,7 +82,7 @@ params:
   #    buttonText: Get started
   section2:
     title: Core Packages
-    subtitle: These are under active development
+    subtitle: They even have unit tests!
     features:
     - title: FacileData
       text: Defines a "tidy-like" API for data query and retrieval from a multi-assay datastore. A reference implementation of a facile datastore (`FacileDataSet`) is included, which uses SQLite to store subject-, sample-, and assay-level metadata and an HDF5 file to store dense high-dimensional assay data.
