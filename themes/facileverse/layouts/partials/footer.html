@@ -9,7 +9,6 @@
       <div class="column">
         <div class="footer-logo">
           <img src="{{ printf "/images/logos/%s" $logo | relURL }}"><br>
-          <span style="font-size: 66%">DNA helix logo by <a style="color: white" rel="nofollow" href="https://vecteezy.com">www.vecteezy.com</a></span>
         </div>
       </div>
       {{- range $quickLinks }}
@@ -47,8 +46,10 @@
             {{- if $bulmaLogo }}
             <a href="https://bulma.io" target="_blank">
               <img src="{{ "/images/logos/made-with-bulma.png" | relURL }}" alt="Made with Bulma" width="128" height="24">
-            </a>
+            </a><br>
             {{- end }}
+            <span style="font-size: 66%">DNA helix logo by <a style="color: white" rel="nofollow" href="https://vecteezy.com" target="_blank">www.vecteezy.com</a></span>
+
           </div>
         </div>
       </div>
