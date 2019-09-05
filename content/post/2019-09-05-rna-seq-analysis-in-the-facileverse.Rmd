@@ -3,6 +3,8 @@ title: RNA-seq analysis in the facileverse
 author: Steve Lianoglou
 date: '2019-09-05'
 slug: facile-rnaseq-analysis
+draft: false
+sidebar: true
 categories: []
 tags:
   - tutorial
