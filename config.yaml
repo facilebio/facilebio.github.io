@@ -42,7 +42,7 @@ params:
     - title: The FacileData API
       url: /
     - title: RNA-seq analysis in the facileverse
-      url: /
+      url: post/facile-rnaseq-analysis/
   - title: Packages
     sublinks:
     - title: FacileData
@@ -143,7 +143,7 @@ params:
         - text: The FacileData API
           link: /
         - text: RNA-seq analysis in the facileverse
-          link: /
+          link: post/facile-rnaseq-analysis/
         - text: Roadmap
           link: /
       #column2:
