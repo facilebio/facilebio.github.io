@@ -53,6 +53,8 @@ params:
       url: https://facileverse.github.io/FacileShine
     - title: FacileViz
       url: https://facileverse.github.io/FacileViz
+    - title: FacileBioc
+      url: https://facileverse.github.io/FacileBioc
   - title: Datasets
     sublinks:
     - title: FacileTcgaDataSet
@@ -96,6 +98,9 @@ params:
       icon: mobile-feed
     - title: FacileViz
       text: Provides interactive (in the javascript sense) views over a facile datastore (scatterplots, boxplots, etc.)
+      icon: mouse-globe
+    - title: FacileBioc
+      text: Implements the FacileData API over standard bioconductor assay containers.
       icon: mouse-globe
   #section3:
   # mainly a screenshot of the application

@@ -4,7 +4,7 @@ author: Steve Lianoglou
 date: '2019-09-05'
 slug: facile-rnaseq-analysis
 draft: false
-sidebar: true
+sidebar: false
 categories: []
 tags:
   - tutorial
