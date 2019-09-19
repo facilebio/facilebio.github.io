@@ -23,7 +23,7 @@ params:
     # Button text
     buttontext: Get Started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "https://facileverse.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -37,12 +37,10 @@ params:
   navbar:
   - title: Articles
     sublinks:
-    - title: Getting Started
-      url: /
+    - title: "RNA-seq analysis: the facile way"
+      url: https://facileverse.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html
     - title: The FacileData API
       url: /
-    - title: RNA-seq analysis in the facileverse
-      url: post/facile-rnaseq-analysis/
   - title: Packages
     sublinks:
     - title: FacileData
@@ -57,6 +55,8 @@ params:
       url: https://facileverse.github.io/FacileBioc
   - title: Datasets
     sublinks:
+    - title: Build Your Own
+      url: https://facileverse.github.io/FacileData/articles/FacileDataSet-assembly.html
     - title: FacileTcgaDataSet
       url: https://facileverse.github.io/FacileTcgaDataSet
     - title: FacileRecountDataSet
