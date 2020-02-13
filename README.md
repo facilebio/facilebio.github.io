@@ -8,7 +8,7 @@ content galore.
 We are using blogdown to generate the organization's website, and hosting on
 netlify.
 
-* https://facileverse.org
-* https://facileverse.netlify.com
+* https://facile.bio
+* https://facilebio.netlify.com
 
 

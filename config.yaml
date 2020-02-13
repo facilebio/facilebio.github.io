@@ -2,7 +2,7 @@
 # https://themes.gohugo.io/hugo-fresh/
 baseURL: https://facileverse.netlify.com/
 languageCode: en-us
-title: "facileverse: interactive tools for genomics analysis"
+title: "facile.bio: interactive tools for genomics analysis"
 theme: facileverse
 # publishDir: "../facileverse.github.io"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -19,11 +19,11 @@ params:
     # Main hero title
     title: inteRact with science
     # Hero subtitle (optional)
-    subtitle: The facileverse is an ecosystem of R packages that provides modular building blocks for the interactive analysis of genomics data.
+    subtitle: facile.bio is an ecosystem of R packages that provides modular building blocks for the interactive analysis of genomics data.
     # Button text
     buttontext: Get Started
     # Where the main hero button links to
-    buttonlink: "https://facileverse.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html"
+    buttonlink: "https://facilebio.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -38,31 +38,31 @@ params:
   - title: Articles
     sublinks:
     - title: "RNA-seq analysis: the facile way"
-      url: https://facileverse.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html
+      url: https://facilebio.github.io/FacileAnalysis/articles/FacileAnalysis-RNAseq.html
     - title: The FacileData API
       url: /
   - title: Packages
     sublinks:
     - title: FacileData
-      url: https://facileverse.github.io/FacileData
+      url: https://facilebio.github.io/FacileData
     - title: FacileAnalysis
-      url: https://facileverse.github.io/FacileAnalysis
+      url: https://facilebio.github.io/FacileAnalysis
     - title: FacileShine
-      url: https://facileverse.github.io/FacileShine
+      url: https://facilebio.github.io/FacileShine
     - title: FacileViz
-      url: https://facileverse.github.io/FacileViz
-    - title: FacileBioc
-      url: https://facileverse.github.io/FacileBioc
+      url: https://facilebio.github.io/FacileViz
+    - title: FacileBiocData
+      url: https://facilebio.github.io/FacileBiocData
   - title: Datasets
     sublinks:
     - title: Build Your Own
-      url: https://facileverse.github.io/FacileData/articles/FacileDataSet-assembly.html
+      url: https://facilebio.github.io/FacileData/articles/FacileDataSet-assembly.html
     - title: FacileTcgaDataSet
-      url: https://facileverse.github.io/FacileTcgaDataSet
+      url: https://facilebio.github.io/FacileTcgaDataSet
     - title: FacileRecountDataSet
       url: #
   - title: GitHub
-    url: https://github.com/facileverse
+    url: https://github.com/facilebio
   #section1:
   #  title: Analyze without analyzing
   #  subtitle: Simplifeid and consistent APIs for data retrieval and analysis lower the barriers to bioinformatic analyses
@@ -99,7 +99,7 @@ params:
     - title: FacileViz
       text: Provides interactive (in the javascript sense) views over a facile datastore (scatterplots, boxplots, etc.)
       icon: mouse-globe
-    - title: FacileBioc
+    - title: FacileBiocData
       text: Implements the FacileData API over standard bioconductor assay containers.
       icon: mouse-globe
   #section3:
@@ -133,10 +133,10 @@ params:
     logo: facile-white.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/facileverse
+    - link: https://github.com/facilebio
       # Icons are from Font Awesome
       icon: github
-    - link: https://twitter.com/slianoglou
+    - link: https://twitter.com/lianos_
       icon: twitter
     bulmalogo: true
     quicklinks:

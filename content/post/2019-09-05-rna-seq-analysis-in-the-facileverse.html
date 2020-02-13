@@ -45,7 +45,7 @@ theme_set(theme_bw())</code></pre>
 first convert the SummarizedExperiment into a FacileDataSet. If you haven’t
 installed the airway package yet, you should do that now.</p>
 <pre class="r"><code>BiocManager::install(&quot;airway&quot;)</code></pre>
-<p>We’ll then load the <code>&quot;airway&quot;</code> dataset, fix up the phenotypic data found in the <code>colData</code> of the object by removing some of the columns we don’t need and specifying the reference level for the <code>dex</code> covariate to be <code>&quot;untrt&quot;</code>, then convert the data into a FacileDataSet.</p>
+<p>We’ll then load the <code>"airway"</code> dataset, fix up the phenotypic data found in the <code>colData</code> of the object by removing some of the columns we don’t need and specifying the reference level for the <code>dex</code> covariate to be <code>"untrt"</code>, then convert the data into a FacileDataSet.</p>
 <pre class="r"><code>data(&quot;airway&quot;, package = &quot;airway&quot;)
 se &lt;- airway
 colData(se) &lt;- colData(airway)[, c(&quot;cell&quot;, &quot;dex&quot;, &quot;albut&quot;)]</code></pre>
