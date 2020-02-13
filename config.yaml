@@ -44,25 +44,27 @@ params:
   - title: Packages
     sublinks:
     - title: FacileData
-      url: https://facilebio.github.io/FacileData
+      url: https://facilebio.github.io/FacileData/
     - title: FacileAnalysis
-      url: https://facilebio.github.io/FacileAnalysis
-    - title: FacileShine
-      url: https://facilebio.github.io/FacileShine
-    - title: FacileViz
-      url: https://facilebio.github.io/FacileViz
+      url: https://facilebio.github.io/FacileAnalysis/
     - title: FacileBiocData
-      url: https://facilebio.github.io/FacileBiocData
+      url: https://facilebio.github.io/FacileBiocData/
+    - title: FacileShine
+      url: https://facilebio.github.io/FacileShine/
+    - title: FacileViz
+      url: https://facilebio.github.io/FacileViz/
   - title: Datasets
     sublinks:
     - title: Build Your Own
       url: https://facilebio.github.io/FacileData/articles/FacileDataSet-assembly.html
     - title: FacileTcgaDataSet
-      url: https://facilebio.github.io/FacileTcgaDataSet
+      url: https://facilebio.github.io/FacileTcgaDataSet/
     - title: FacileRecountDataSet
-      url: #
+      url: /
+    - title: FacileArchs4DataSet
+      url: https://facilebio.github.io/FacileArchs4DataSet/
   - title: GitHub
-    url: https://github.com/facilebio
+    url: https://github.com/facilebio/
   #section1:
   #  title: Analyze without analyzing
   #  subtitle: Simplifeid and consistent APIs for data retrieval and analysis lower the barriers to bioinformatic analyses
@@ -90,18 +92,23 @@ params:
       text: Defines a "tidy-like" API for data query and retrieval from a multi-assay datastore. A reference implementation of a facile datastore (`FacileDataSet`) is included, which uses SQLite to store subject-, sample-, and assay-level metadata and an HDF5 file to store dense high-dimensional assay data.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
+      url: https://facilebio.github.io/FacileData/
     - title: FacileAnalysis
       text: Provides modular analysis workflows for common genomics analysis tasks. A common set of methods are defined (`shine()`, `viz()` and `report()`) to provide interactive views over these results, which can be placed into a shiny application or embedded into an Rmarkdown report.
       icon: doc-sync
-    - title: FacileShine
-      text: Provides shiny components to interact with and retrieve data from a facile datastore.
-      icon: mobile-feed
-    - title: FacileViz
-      text: Provides interactive (in the javascript sense) views over a facile datastore (scatterplots, boxplots, etc.)
-      icon: mouse-globe
+      url: https://facilebio.github.io/FacileAnalysis/
     - title: FacileBiocData
       text: Implements the FacileData API over standard bioconductor assay containers.
       icon: mouse-globe
+      url: https://facilebio.github.io/FacileBiocData/
+    - title: FacileShine
+      text: Provides shiny components to interact with and retrieve data from a facile datastore.
+      icon: mobile-feed
+      url: https://facilebio.github.io/FacileShine/
+    - title: FacileViz
+      text: Provides interactive (in the javascript sense) views over a facile datastore (scatterplots, boxplots, etc.)
+      icon: mouse-globe
+      url: https://facilebio.github.io/FacileViz/
   #section3:
   # mainly a screenshot of the application
   #  title: One platform
