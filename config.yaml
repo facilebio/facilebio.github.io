@@ -19,7 +19,9 @@ params:
     # Main hero title
     title: inteRact with science
     # Hero subtitle (optional)
-    subtitle: facile.bio is an ecosystem of R packages that provides modular building blocks for the interactive analysis of genomics data.
+    subtitle: >
+      facile.bio is an ecosystem of R packages that provides modular building
+      blocks for the interactive analysis of genomics data.
     # Button text
     buttontext: Get Started
     # Where the main hero button links to
@@ -89,18 +91,28 @@ params:
     subtitle: They even have unit tests!
     features:
     - title: FacileData
-      text: Defines a "tidy-like" API for data query and retrieval from a multi-assay datastore. A reference implementation of a facile datastore (`FacileDataSet`) is included, which uses SQLite to store subject-, sample-, and assay-level metadata and an HDF5 file to store dense high-dimensional assay data.
-      # Icon (from /images/illustrations/icons/___.svg)
+      text: >
+        Defines a "tidy-like" API for data query and retrieval from a
+        multi-assay datastore. Provides a reference implementation
+        (`FacileDataSet`) that enables the analysis of large, out-of-memory
+        datasets by using SQLite to store subject-, sample-, and assay-level
+        metadata, and HDF5 to store dense high-dimensional assay data.
       icon: laptop-globe
       url: https://facilebio.github.io/FacileData/
-    - title: FacileAnalysis
-      text: Provides modular analysis workflows for common genomics analysis tasks. A common set of methods are defined (`shine()`, `viz()` and `report()`) to provide interactive views over these results, which can be placed into a shiny application or embedded into an Rmarkdown report.
-      icon: doc-sync
-      url: https://facilebio.github.io/FacileAnalysis/
     - title: FacileBiocData
-      text: Implements the FacileData API over standard bioconductor assay containers.
+      text: >
+        Implements the facile API over standard bioconductor assay containers.
       icon: mouse-globe
       url: https://facilebio.github.io/FacileBiocData/
+    - title: FacileAnalysis
+      text: >
+        Provides modular analysis workflows for common analysis tasks, like
+        PCA, differential expression, and gene set enrichment analysis. A common
+        set of methods are defined (`shine()`, `viz()` and `report()`) to
+        provide interactive views over these results, which can be placed into a
+        shiny application or embedded into an Rmarkdown report.
+      icon: doc-sync
+      url: https://facilebio.github.io/FacileAnalysis/
     - title: FacileShine
       text: Provides shiny components to interact with and retrieve data from a facile datastore.
       icon: mobile-feed
